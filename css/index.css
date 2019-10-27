@@ -163,6 +163,15 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  margin: 2%;
+}
+nav a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #23293B;
+  padding-left: 30px;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -172,6 +181,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.main-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1%;
+  background-color: #F6F6F6;
+  border-bottom: 1px solid #F1F1F1;
 }
 .home .intro h2 {
   padding: 15px;
@@ -214,6 +231,19 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: flex;
+}
+.home .walk .walk-text .btn button {
+  color: white;
+  background-color: #22283A;
+  padding: 2%;
+  border-radius: 6px;
+  width: 30%;
+  height: 10%;
+  font-size: 1.7rem;
+  border: none;
 }
 .home .walk .walk-img {
   width: 46%;
