@@ -1,1 +1,13 @@
 // Mixins Here
+
+.lighter(@bg-color, @percentage) {
+    &:hover {
+        background-color: lighten(@bg-color, @percentage);
+        color: yellow;
+    }
+}
+
+.flex(@direction) {
+    display: flex;
+    flex-direction: @direction;
+}
