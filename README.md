@@ -26,6 +26,9 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 [Click here to review the mobile design](design-files/home-mobile.png)
 
+
+
+
 ## Self-Study Questions
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
@@ -34,13 +37,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+While both allow the website to change based on view-width, a responsive website is superior in in its fluidity, given that it will respond at any point as opposed to adapting to specific break points.  
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile-first and desktop-first refer to how you build a website and which device you are favoring for your site/app/etc. If you're using something that will primarily be read on phones or through an app, it would make more sense to have a mobile-first approach, and then make the media queries min-width, instead of max-width, as you make changes that correspond to different view-widths/breakpoints. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+When using 'rem' units, it's necessary to set a standard value of 62.5% in the 'html'. It serves as a reference when calculating units of rem, which are 1 rem per 16px. 
+
 4. How would you describe preprocessing to someone new to CSS?
 
+CSS takes a lot of time to write out, it's miticulous and can be repetive, and disorganized. There are pre-processors like 'less' that you write code in similiar to CSS, but it will translate the "short-hand version" of your code into CSS without all the manual labor (by using a watch-compiler to see each change you make and correlate it to the css file). Ha!
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Preprocessors were my favorite concept because it's the most applicable, and the most trouble for me is setting parametric-mixins. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
